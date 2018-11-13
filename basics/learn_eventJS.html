@@ -1,0 +1,17 @@
+<!DOCTYPE HTML>
+<html>
+<head> LEARN HTML AND JS EVENTS</head>
+<body>
+<button onclick="document.getElementById('a').innerHTML=Date()">THE TIME IS</button>
+<p id="a"></p>
+<button onclick="this.innerHTML=Date()">The time is</button>
+<button onmouseover="displayDate()">The time is</button>
+<button onclick="displayDate()">The time is</button>
+<script>
+ function displayDate(){
+    document.getElementById("b").innerHTML=Date();
+	}
+	</script>
+	<p id="b"></p>
+</body>
+</html>
